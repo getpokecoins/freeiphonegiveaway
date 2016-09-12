@@ -1,0 +1,148 @@
+
+
+
+
+header {
+    height: 48x;
+    background: rgba(0,0,0,0.8);
+}
+
+header img {
+    margin: 0 auto;
+    display: block;
+}
+
+.banner {
+    height: 100%;
+    width: 100%;
+    background: black;
+    background: url(../images/hero_6s_small_2x.png) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.banner .overlay {
+    background: rgba(0,0,0,0.6);
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+
+.enter {
+    background: white;
+    height: 50px;
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 25px;
+    line-height: 50px;
+    text-align: center;
+    color: #323232;
+    margin-top: 50px;
+}
+
+
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+
+.mid {
+  position: absolute;
+  width: 100%;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+
+.swieper {
+    background: rgba(242,242,242,0.6);
+    height: 100px;
+    width: 100%;
+}
+
+
+.swieper div {
+    float: left;
+    width: 33%;
+}
+
+.swieper img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.swieper .iphone6s {
+    text-align: center;
+    font-size: 12px;
+    float: none;
+    width: 100%;
+    padding-top: 10px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 18px;
+    line-height: 50px;
+    width: 100%;
+    background: rgba(242,242,242,0.6);
+    margin: 0;
+}
+
+
+
+.iphone {
+    height: 150px;
+    background: black;
+    width: 100%;
+}
+
+.iphone img {
+    height: 140px;
+    float: left;
+}
+
+.iphone h6 {
+    text-align: center;
+    line-height: 150px;
+    font-size: 18px;
+}
+
+
+
+
+
+
+.swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+    .swiper-slide {
+        font-size: 18px;
+        background: #fff;
+    }
+
+    .swiper-pagination-bullet {
+        background: none !important;
+        height: 100%;
+    }
+
+       
+        
+    .swiper-container-horizontal > .swiper-pagination {
+        top: 0px;
+        left: 0;
+        width: 100%;
+    } 
+        
+    
